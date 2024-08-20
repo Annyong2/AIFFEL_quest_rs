@@ -1,6 +1,6 @@
 # Branches
 ### AIFFEL_quest_cr(L1)
-├───* MainQuest(L2)*  
+├─── MainQuest(L2)  
 │        ├─── Quest01(L3)  
 │        │      ├── .ipynb  
 │        │      └── README.md  
@@ -25,7 +25,7 @@
 │        ├── Quest08(L3)  
 │        │      ├── .ipynb  
 │        │      └── README.md  
-├────## Exploration(L2)  
+├──── Exploration(L2)  
 │        ├── Ex01(L3)  
 │        │      ├── .ipynb  
 │        │      └── README.md  
@@ -47,7 +47,7 @@
 │        ├── Ex07(L3)  
 │        │      ├── .ipynb  
 │        │      └── README.md  
-└────## GoingDeeper(L2)  
+└──── GoingDeeper(L2)  
          ├── Gdr01(L3)  
          │     ├── .ipynb  
          │     └── README.md  
