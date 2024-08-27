@@ -91,7 +91,6 @@
 - [X]  **3. 에러가 난 부분을 디버깅하여 문제를 해결한 기록을 남겼거나
 새로운 시도 또는 추가 실험을 수행해봤나요?**
 
-        ---------------------------------------------------------------------------
     IndexError                                Traceback (most recent call last)
     /tmp/ipykernel_33/3261939851.py in <module>
       5 for row in range(3):
@@ -102,6 +101,7 @@
 
     IndexError: list index out of range
         list index out of range 수정 필요 -> count =5 로 바꾸시면 될거에요
+
 - [ ]  **4. 회고를 잘 작성했나요?**
       
         코드 설명 하실 때 말로 설명 들었습니다. -> 이번 과정의 목표는 실습 단계를 한 단계 거쳐 가시는게 목적이라고 하셨습니다. 
@@ -111,7 +111,7 @@
            models = [{'model':gboost, 'name':'GradientBoosting'}, {'model':xgboost, 'name':'XGBoost'},
           {'model':lightgbm, 'name':'LightGBM'}]
       
-    # 사용함수 GridSearchCV
+          # 사용함수 GridSearchCV
         def my_GridSearch(model, train, y, param_grid, verbose=2, n_jobs=5):
             # GridSearchCV 모델로 초기화
             grid_model = GridSearchCV(model, param_grid=param_grid, scoring='neg_mean_squared_error', \
@@ -141,5 +141,7 @@
 # 회고(참고 링크 및 코드 개선)
 
  단순히 k-fold를 사용하는게 아니라 그 함수의 score 처리를 어떻게 하는지 깊게 분석하신 것 같습니다.
+ 
  그래프에서 오류여서 상관 없지만 list out of bound 치명적인 오류에요 과정을 다 한번 거치는 것도 좋지만 Error 부분도 관심 있게 봐주세요
+ 
  사실 어느정도 깊이를 원하시는지 잘 몰라서 제가 생각했을 때 저러면 좀 더 높게 나올거 같은 경우에만 공유했습니다. 
